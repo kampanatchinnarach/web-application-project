@@ -1,0 +1,68 @@
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(165, 215, 232);
+    margin: 1.52vw;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(165, 215, 232);
+}
+
+.login-container {
+    background-color: rgb(165, 215, 232);
+    align-items: center;
+    text-align: center;
+    text-decoration: var(--text-color);
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 25vw; 
+    height: 33.33vw; 
+    border-radius: 2.53vw; 
+}
+
+.login-container h1 {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    font-weight: bold;
+}
+
+.login-container a {
+    background-color: var(--text-color);
+}
+
+.login-container p {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    font-weight:lighter;
+    margin-bottom: 3.53vw; 
+}
+
+.login-container p a{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    font-weight: bold;
+}
+
+.login-container input { 
+    width: 19.19vw;
+    height: 2.54vw;
+    margin-bottom: 1.01vw;
+    background-color: rgb(117, 171, 188);
+    border-radius: 0.35vw; 
+    border: solid transparent;
+}
+
+button { 
+    width: 19.7vw;
+    height: 3.03vw;
+    margin-bottom: 1.01vw;
+    background-color: var(--sub-color);
+    border-radius: 0.35vw;
+    border: solid transparent;
+    font-size: 1.01vw;
+    font-weight: bold;
+    text-decoration: var(--bg-color);
+}

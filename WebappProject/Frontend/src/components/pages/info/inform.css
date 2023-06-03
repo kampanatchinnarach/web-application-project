@@ -1,0 +1,44 @@
+.information-container{
+  margin-left: 22vw;
+  background-color:rgb(165, 215, 232); /* กำหนดสีพื้นหลังเป็นสีเทาอ่อน */
+  padding: 30px; /* กำหนดระยะห่างของข้อความภายใน element */
+  width: 60vw ;/* กำหนดความกว้างเป็น 50% ของ container */
+  float: right; /* สั่งให้ element ลอยไปทางขวา */
+  box-sizing: border-box; /* กำหนดให้ padding นับเป็นส่วนหนึ่งของความกว้างของ element */
+  border-radius: 1.5vw;
+  position: relative;
+ 
+}
+.head-info{
+  font-size: 1.8vw;
+}
+
+.container-local{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 คอลัมน์ */
+    grid-template-rows: repeat(3, auto); /* 3 แถว */
+    gap: 0.5vw; /*ระยะห่างระหว่าง grid*/
+}
+
+.EditButton {
+ 
+  position: absolute;
+  top: 0.2vw;
+  right: 2vw;
+  margin: 1vw;
+  padding: 0.3vw 0.6vw;
+  width: 4vw;
+  font-size: 0.8vw;
+  background-color:  #6a64cc;
+  color: #fff;
+  border: none;
+  border-radius: 0.5vw;
+  cursor: pointer;
+}
+
+.EditButton:hover {
+  background-color: #4a7abf;
+}
+.text-order{
+  background-color: rgb(125, 141, 206);
+}

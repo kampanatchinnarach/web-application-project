@@ -1,0 +1,15 @@
+.right-container .tracking-container {
+    background-color: var(--text-color);
+    margin-top: 1.02vw;
+}
+
+.right-container .btn-container button {
+    color: var(--text-color);
+    transition: .5s;
+    background-color: var(--sub-color);
+}
+
+.right-container .btn-container button:hover {
+    transform: scale(1.1);
+    background-color: var(--bg-color);
+}

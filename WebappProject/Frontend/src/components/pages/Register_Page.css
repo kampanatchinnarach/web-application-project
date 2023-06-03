@@ -1,0 +1,74 @@
+:root {
+    --text-color: rgb(165, 215, 232);
+    --sub-text-color: rgb(25, 55, 109);
+    --bg-color: rgb(11, 36, 71);
+    --sub-color: rgb(87, 108, 188);
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(165, 215, 232);
+    margin: 1.515vw;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(165, 215, 232);
+}
+
+.register-container {
+    background-color: rgb(165, 215, 232);
+    align-items: center;
+    text-align: center;
+    text-decoration: var(--text-color);
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 25.25vw;
+    height: 33.33vw;
+    border-radius: 2.525vw 2.525vw 2.525vw 2.525vw;
+}
+
+.register-container h1 {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    font-weight: bold;
+}
+
+.register-container a {
+    background-color: var(--text-color);
+}
+
+.register-container p {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    font-weight:lighter;
+    margin-bottom: 3.333vw;
+}
+
+.register-container p a{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    font-weight: bold;
+}
+
+input { 
+    width: 19.192vw;
+    height: 4.167vw;
+    margin-bottom: 1.01vw;
+    background-color: rgb(117, 171, 188);
+    border-radius: 0.707vw;
+    border: solid transparent;
+}
+
+button { 
+    width: 19.697vw;
+    height: 3.157vw;
+    background-color: var(--sub-color);
+    border-radius: 0.707vw;
+    border: solid transparent;
+    font-size: 1.01vw;
+    font-weight: bold;
+    text-decoration: var(--bg-color);
+}

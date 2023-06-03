@@ -1,0 +1,131 @@
+.container { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5.21vw;
+    position: fixed;     
+}
+
+.left-container .menu-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    font-size: 2.08vw;
+    align-items: center;
+    background-color: var(--text-color);
+    width: 5.21vw;
+    height: 46.29vh;
+    border-radius: 1.04vw;
+}
+
+.left-container .menu-container i{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    margin: auto;
+    transition: .3s;
+}
+
+.left-container .menu-container i:hover{
+    transform: scale(1.2);
+    color: var(--sub-color);
+}
+
+.left-container .menu-container i.active{
+    color: var(--sub-color);
+}
+
+.left-container .menu-container a{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    margin-bottom: 1.56vh;
+    margin-top: auto;
+}
+
+.left-container h1{ 
+    color: var(--text-color);
+    font-size: 2.63vw;
+}
+
+.right-container {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin-right: 1.56vw;
+    background-color: var(--text-color);
+    flex-direction: column;
+    border-radius: 2.6vw;
+    margin-left: 22vw;
+    min-height: 70vh;
+    min-width: 70vh;
+}
+
+.right-container-withOutBg{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin-right: 1.56vw;
+    
+    flex-direction: column;
+    border-radius: 2.6vw;
+    margin-left: 22vw;
+    min-height: 70vh;
+}
+.right-container h2 {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    font-size: 1.82vw;
+}
+
+.right-container select {
+    background-color: rgb(117, 171, 188);
+    width: 31.25vw;
+    height: 4.63vh;
+    text-align: center;
+    border-radius: 1.04vw;
+    margin-bottom: 4.63vh;
+    font-size: 0.83vw;
+}
+
+.right-container option {
+    background-color: rgb(117, 171, 188);
+}
+
+.right-container{
+    background-color: var(--text-color);
+}
+
+.right-container button{
+    position: relative;
+    align-self: flex-end;
+    width: 20.83vw;
+    height: 4.22vh;
+    font-size: 0.93vw;
+    font-weight: bold;
+    color: var(--bg-color);
+    transition: .5s;
+}
+
+.Provider{
+    right: 32%;
+}
+#MyOrderList{
+    /* display: block; */
+    top: 10%;
+    right: 3%;
+    width: 13.83vw !important;
+}
+
+.order-button{
+    top: 5%;
+    right: 33%;
+}
+
+.right-container button:hover{
+    transform: scale(1.1);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}

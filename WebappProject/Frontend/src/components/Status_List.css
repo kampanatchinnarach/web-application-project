@@ -1,0 +1,44 @@
+.status-list-container {
+    margin-top: 1.01vw;
+    margin-bottom: 1.01vw;
+    background-color: rgb(117, 171, 188);
+    height: 10.1vw;
+    width: 56.61vw;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1.01vw;
+}
+
+.status-text-container {
+    background-color: rgb(117, 171, 188);
+    margin-left: 2.53vw; 
+    margin-top: 0.25vw; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.status-list-container .status-text-container p {
+    background-color: rgb(117, 171, 188);
+    color: var(--bg-color);
+    font-weight: bold;
+}
+
+.status-list-container button{
+    position: relative;
+    bottom: 5%;
+    height: 1.52vw; 
+    width: 10.1vw;
+    font-size: 0.76vw; 
+    margin-top: 1.01vw;
+    margin-right: 1.52vw; 
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    transition: .5s;
+}
+
+.status-list-container button:hover{
+    transform: scale(1.1);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}

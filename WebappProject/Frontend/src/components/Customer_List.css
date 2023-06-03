@@ -1,0 +1,40 @@
+.customer-list-container {
+    margin-top: 1.01vw;
+    margin-bottom: 1.01vw;
+    background-color: rgb(117, 171, 188);
+    height: 14.518vw;
+    width: 56.606vw;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1.010vw;
+}
+
+.customer-text-container {
+    background-color: rgb(117, 171, 188);
+    margin-left: 2.525vw;
+    margin-top: 0.463vw;
+}
+
+.customer-list-container .customer-text-container p {
+    background-color: rgb(117, 171, 188);
+    color: var(--bg-color);
+    font-weight: bold;
+    font-size: 1.1vw;
+}
+
+.customer-list-container button{
+    color: var(--bg-color);
+    height: 1.389vw;
+    width: 10.101vw;
+    font-size: 0.858vw;
+    margin-top: 1.851vw;
+    margin-right: 1.515vw;
+    background-color: var(--text-color);
+    transition: .5s;
+}
+
+.customer-list-container button:hover{
+    transform: scale(1.1);
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}

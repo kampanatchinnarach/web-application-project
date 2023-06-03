@@ -1,0 +1,29 @@
+.boxname-usn {
+    
+    width: 25vw;
+    height: 2.5vw; /* 30% of viewport height */
+    border: 0.001vw solid rgb(187, 185, 210); /* เพิ่มเส้นกรอบสี่เหลียม */
+    border-radius: 0.5vw;
+   /* กำหนดระยะห่างระหว่าง element */
+    margin-bottom: 0.8vw;
+    vertical-align: middle;
+
+  }
+  
+  legend{
+    font-weight: bold;
+    margin-top: 0.5vw;
+    color: var(--bg-color);
+    font-size: 1.2vw;
+  }
+
+ .boxname-usn p{
+    margin-left: 1vw;
+    margin-top: .8vh;
+    color: var(--bg-color);
+  }
+
+  .infobg-color{
+    background-color: var(--text-color);
+  }
+

@@ -1,0 +1,121 @@
+
+
+.Edit-data {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8vw;
+  }
+  
+  .text-order{
+    background-color: rgb(125, 141, 206);
+  }
+  .editbg-color{
+    background-color: rgb(165, 215, 232) !important;
+  }
+  .profile-container input {
+    width: 18vw;
+    margin: 1vw;
+    height: 2.5vw; /* 30% of viewport height */
+    border: 0.001vw solid rgb(161, 157, 218); /* เพิ่มเส้นกรอบสี่เหลียม */
+    border-radius: 0.5vw;
+  }
+
+  .profile-container input:focus{
+    outline: none;
+    border-color: #6d9eeb;
+    box-shadow: 0 0 0 0.12vw #6d9eeb;
+  }
+
+  .Edit-data input {
+    width: 25vw;
+    height: 2.5vw; /* 30% of viewport height */
+    border: 0.001vw solid rgb(145, 140, 211); /* เพิ่มเส้นกรอบสี่เหลียม */
+    border-radius: 0.5vw;
+  }
+  
+  .Edit-data input:focus {
+    outline: none;
+    border-color: #6d9eeb;
+    box-shadow: 0 0 0 0.12vw #6d9eeb;
+  }
+
+  .Edit-data input::placeholder {
+    color: #999;
+  }
+
+  .SaveButton{
+    position: absolute;
+    top: 0.2vw;
+    right: 6.5vw;
+    margin: 1vw;
+    width: 4vw;
+    padding: 0.3vw 0.6vw;
+    font-size: 0.8vw;
+    background-color: #31d955;
+    color: #f9f9f9;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+  }
+
+  .SaveButton:hover {
+    background-color: #187739;
+  }
+
+  .CancelButton {
+ 
+    position: absolute;
+    top: 0.2vw;
+    right: 2vw;
+    margin: 1vw;
+    padding: 0.3vw 0.6vw;
+    width: 4vw;
+    font-size: 0.8vw;
+    background-color:  #eb6d6d;
+    color: #fff;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+  }
+  
+  .CancelButton:hover {
+    background-color:  #bf4a4a;
+  }
+
+
+  
+  
+
+  input[type="file"] {
+    display: none; /* ซ่อนแท็ก input */
+    
+  }
+  
+  .label-button {
+    
+    display: inline-block; /* แสดงแท็ก label เป็นแบบ inline-block */
+    background-color: #594caf; /* ตั้งค่าสีพื้นหลัง */
+    color: white; /* ตั้งค่าสีตัวอักษร */
+    padding: 0.3vw 0.7vw; /* ตั้งค่าขนาดของพื้นที่เก็บเนื้อหา */
+    text-align: center; /* จัดตำแหน่งข้อความกลางกล่อง */
+    border-radius: 0.7vw; /* ทำให้มีรูปร่างเป็นวงกลม */
+    border: none; /* ไม่มีเส้นขอบ */
+    cursor: pointer; /* เมื่อชี้ไปที่ปุ่ม จะเป็นการเปลี่ยนเมาส์เป็นรูปแบบเป็นลูกศร */
+    position: absolute;
+    left : 11vw;
+    top: 7vw;
+  }
+  
+  .label-button:hover {
+    background-color: #7c4ce6; /* แสดงสีพื้นหลังเมื่อชี้ไปที่ปุ่ม */
+  }
+  
+
+  .head-info{
+     background-color: rgb(165, 215, 232);
+  }
+
+
+  
+  
+ 
